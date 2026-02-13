@@ -1,0 +1,1 @@
+document.write("This iS a cool place.");
