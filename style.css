@@ -117,7 +117,7 @@ body{
 .rotate svg:last-child{/*Class for Javascript to animate opening*/
     rotate: 180deg;
 }
-#toggle-btn{/*ID will be used in Javascript*/
+#toggle-btn{/*ID will be used in Javascript to toggle open and close.*/
     margin-left: auto;
     padding: 10px;
     border: none;
@@ -138,7 +138,7 @@ body{
     justify-content: center;    /* Center horizontally */
     align-items: center;        /* Center vertically */
 }
-#plus-icon:hover{  /*Style plus Icon when hovered.*/  
+#plus-icon:hover{  /*Style plus-Icon when hovered.*/  
     rotate: 360deg;
     transition: 500ms ease;
 }
