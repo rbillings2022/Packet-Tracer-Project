@@ -8,8 +8,12 @@
     <title>Packet Tracer</title>
     <link rel="icon" href="icons/lightning.png" type="image/x-icon"><!--Placeholder browser Icon-->
 
+    <!-- Cytoscape Library -->
+    <script src="https://unpkg.com/cytoscape/dist/cytoscape.min.js"></script>
+
     <!--Embedded Javascript to HTML-->
     <script type="text/Javascript" src="script.js" defer></script>
+    <script type="text/Javascript" src="cytoscape.js"></script>
 </head>
 <body>
     <aside id="sidebar"><!--Sidebar begins-->
@@ -59,11 +63,12 @@
             </li>
         </ul>
     </aside><!--Sidebar ends-->
-    <main>
+
+    <main><!--Start of Right side of the MAIN page-->
         <div class="container">
-            <h2>Body for body</h2>
+            <div id="cytoscape"></div><!-- Id for cytoscape-->
         </div>
-    </main>
+    </main><!--Start of Right side of the MAIN page-->
     
 </body>
 </html>

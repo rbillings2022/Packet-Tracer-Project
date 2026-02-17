@@ -163,6 +163,14 @@ main p{
     font: inherit;
     cursor: pointer;
 }
+
+/* Graph side. Right MAINside of the screen*/
+#cytoscape{
+    width: 100%;
+    height: 100%;
+    background-color: #172738;
+    border-radius: 10px;
+}
 .container{/*Style container for The RIGHT BOX.*/
     border: 2px solid var(--line-color);
     border-radius: 10px;/*Curve the edges of the border*/
