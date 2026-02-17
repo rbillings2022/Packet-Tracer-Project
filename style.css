@@ -175,7 +175,7 @@ main p{
     border: 2px solid var(--line-color);
     border-radius: 10px;/*Curve the edges of the border*/
     margin-bottom: 20px;
-    padding: min(64px, 5%);
+    padding: min(20px, 5%);
     height: 100vh;
 
     h2, p{margin-top: 10px;}
