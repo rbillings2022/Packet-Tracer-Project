@@ -164,7 +164,7 @@ main p{
     cursor: pointer;
 }
 
-/* Graph side. Right MAINside of the screen*/
+/* Viewport side. Right MAINside of the screen*/
 #cytoscape{
     width: 100%;
     height: 100%;
@@ -180,7 +180,7 @@ main p{
     cursor: pointer;
     h2, p{margin-top: 10px;}
 }
-.viewport-hover{
+.viewport-hover{ /* Viewport Text*/
     visibility: hidden;
     padding-left: 50%;
 }

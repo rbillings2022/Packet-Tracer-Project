@@ -34,9 +34,9 @@ function createDropdown() {
 
         <ul class="sub-menu">
             <div>
-                <li><a href="#">Placeholder 1</a></li>
-                <li><a href="#">Placeholder 2</a></li>
-                <li><a href="#">Placeholder 3</a></li>
+                <li><a >Placeholder 1</a></li>
+                <li><a>Placeholder 2</a></li>
+                <li><a>Placeholder 3</a></li>
             </div>
         </ul>
     `;
@@ -50,6 +50,7 @@ document.addEventListener("dblclick", function (e) {
     if (e.target.classList.contains("menu-title")) {
         makeEditable(e.target);
     }
+
 });
 
 //Able to edit the names of newly added
