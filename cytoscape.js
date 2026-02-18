@@ -11,9 +11,13 @@ document.addEventListener("DOMContentLoaded", function () {
             { data: { id: 'Switch', type: 'switch' } },
             { data: { id: 'Router1', type: 'router' } },
             { data: { id: 'Router2', type: 'router' } },
-            { data: { id: 'link2', source: 'Router2', target: 'Router1' } },
+            { data: { id: 'PC2', type: 'pc'} },
+            { data: { id: 'Switch2', type: 'switch' } },
+            { data: { id: 'link2', source: 'Router2', target: 'Router1' } },//Adding a Link between nodes
             { data: { id: 'link3', source: 'Switch', target: 'PC1' } },
-            { data: { id: 'link4', source: 'Router1', target: 'Switch' } }
+            { data: { id: 'link4', source: 'Router1', target: 'Switch' } },
+            { data: { id: 'link5', source: 'PC2', target: 'Switch2' } },
+            { data: { id: 'link6', source: 'Switch2', target: 'Router2' } }
         ],
 
         //Style elements in graph
