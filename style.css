@@ -177,6 +177,13 @@ main p{
     margin-bottom: 20px;
     padding: min(20px, 5%);
     height: 100vh;
-
+    cursor: pointer;
     h2, p{margin-top: 10px;}
+}
+.viewport-hover{
+    visibility: hidden;
+    padding-left: 50%;
+}
+.container:hover .viewport-hover{
+    visibility: visible;
 }
