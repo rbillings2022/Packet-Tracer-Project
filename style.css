@@ -18,7 +18,7 @@ html{
     line-height: 24px;
 }
 body{
-    min-height: 100vh;
+    height: 100vh;
     background-color: var(--base-color); /*Assigned Variable*/
     color: var(--text-color);/*Assigned Variable*/
     display: grid;/*Define grid layout of website.*/
@@ -31,7 +31,7 @@ body{
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    height: 100vh;
+    height: 100%;
     width: 250px;
     padding: 5px 16px;/*Top-bottom Left-Right*/
     background-color: var(--base-color);
@@ -114,6 +114,14 @@ body{
 .dropdown-btn svg{/*Rotates the button animation*/
     transition: 300ms ease-in-out;
 }
+.dropdown-btn{/*Class will be used in Javascript*/
+    width: 100%;
+    text-align: left;
+    background: none;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+}
 .rotate svg:last-child{/*Class for Javascript to animate opening*/
     rotate: 180deg;
 }
@@ -146,22 +154,15 @@ body{
     background-color: var(--hover-color);
 }
 main{
-    padding: min(30px, 7%);
+    height: 100%;
+    min-height: 0;
+    padding: min(20px, 7%);
+    box-sizing: border-box;
 }
 main p{
     color: var(--secondary-text-color);
     margin-top: 5px;
     margin-bottom: 15px;
-}
-
-/*Classes for menu options*/
-.dropdown-btn{/*Class will be used in Javascript*/
-    width: 100%;
-    text-align: left;
-    background: none;
-    border: none;
-    font: inherit;
-    cursor: pointer;
 }
 
 /* Viewport side. Right MAINside of the screen*/
@@ -174,9 +175,9 @@ main p{
 .container{/*Style container for The RIGHT BOX.*/
     border: 2px solid var(--line-color);
     border-radius: 10px;/*Curve the edges of the border*/
-    margin-bottom: 20px;
-    padding: min(20px, 5%);
-    height: 100vh;
+    padding: min(40px, 50px);
+    height: 100%;
+    box-sizing: border-box;
     cursor: pointer;
     h2, p{margin-top: 10px;}
 }
