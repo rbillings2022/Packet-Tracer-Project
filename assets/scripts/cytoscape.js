@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
             {
                 selector: 'node[type="pc"]',
                 style: {
-                    'background-image': 'icons/computer.png',
+                    'background-image': 'assets/icons/computer.png',
                     'background-color': '#172738',
                     'label': 'data(id)',
                     'color': '#fff',
@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function () {
             {
                 selector: 'node[type="switch"]',
                 style: {
-                    'background-image': 'icons/switch.png',
+                    'background-image': 'assets/icons/switch.png',
                     'background-color': '#172738',
                     'label': 'data(id)',
                     'color': '#fff',
@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function () {
             {
                 selector: 'node[type="router"]',
                 style: {
-                    'background-image': 'icons/router.png',
+                    'background-image': 'assets/icons/router.png',
                     'background-color': '#172738',
                     'label': 'data(id)',
                     'color': '#fff',
